@@ -50,6 +50,34 @@ const notifications = ref<NotificationItem[]>([
     message: '描述信息描述信息描述信息',
     title: '代办提醒',
   },
+  {
+    avatar: 'https://avatar.vercel.sh/satori',
+    date: '1天前',
+    isRead: false,
+    message: '描述信息描述信息描述信息',
+    title: '代办提醒',
+  },
+  {
+    avatar: 'https://avatar.vercel.sh/satori',
+    date: '1天前',
+    isRead: false,
+    message: '描述信息描述信息描述信息',
+    title: '代办提醒',
+  },
+  {
+    avatar: 'https://avatar.vercel.sh/satori',
+    date: '1天前',
+    isRead: false,
+    message: '描述信息描述信息描述信息',
+    title: '代办提醒',
+  },
+  {
+    avatar: 'https://avatar.vercel.sh/satori',
+    date: '1天前',
+    isRead: false,
+    message: '描述信息描述信息描述信息',
+    title: '代办提醒',
+  },
 ]);
 
 const userStore = useUserStore();
@@ -130,7 +158,7 @@ watch(
         :menus
         :text="userStore.userInfo?.realName"
         description="ann.vben@gmail.com"
-        tag-text="Pro"
+        tag-text="ProMax"
         @logout="handleLogout"
       />
     </template>
